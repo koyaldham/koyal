@@ -1,61 +1,12 @@
-<h1><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./lib/assets/wordmark.dark.png?raw=true">
-  <source media="(prefers-color-scheme: light)" srcset="./lib/assets/wordmark.light.png?raw=true">
-  <img alt="Mastodon" src="./lib/assets/wordmark.light.png?raw=true" height="34">
-</picture></h1>
+<h1>Koyal</h1>
+[![Ruby Testing](https://github.com/koyaldham/koyal/actions/workflows/test-ruby.yml/badge.svg)](https://github.com/koyaldham/koyal/actions/workflows/test-ruby.yml)
 
-[![GitHub release](https://img.shields.io/github/release/mastodon/mastodon.svg)][releases]
-[![Ruby Testing](https://github.com/mastodon/mastodon/actions/workflows/test-ruby.yml/badge.svg)](https://github.com/mastodon/mastodon/actions/workflows/test-ruby.yml)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/mastodon/localized.svg)][crowdin]
+[releases]: https://github.com/koyaldham/koyal/releases
+[crowdin]: https://crowdin.com/project/koyaldham
 
-[releases]: https://github.com/mastodon/mastodon/releases
-[crowdin]: https://crowdin.com/project/mastodon
+Koyal is a twitter like social platform where users can share cuckoo under moderation of house rules.
 
-Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
-
-Click below to **learn more** in a video:
-
-[![Screenshot](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/ezgif-2-60f1b00403.gif)][youtube_demo]
-
-[youtube_demo]: https://www.youtube.com/watch?v=IPSbNdBmWKE
-
-## Navigation
-
-- [Project homepage 🐘](https://joinmastodon.org)
-- [Support the development via Patreon][patreon]
-- [View sponsors](https://joinmastodon.org/sponsors)
-- [Blog](https://blog.joinmastodon.org)
-- [Documentation](https://docs.joinmastodon.org)
-- [Roadmap](https://joinmastodon.org/roadmap)
-- [Official Docker image](https://github.com/mastodon/mastodon/pkgs/container/mastodon)
-- [Browse Mastodon servers](https://joinmastodon.org/communities)
-- [Browse Mastodon apps](https://joinmastodon.org/apps)
-
-[patreon]: https://www.patreon.com/mastodon
-
-## Features
-
-<img src="/app/javascript/images/elephant_ui_working.svg?raw=true" align="right" width="30%" />
-
-### No vendor lock-in: Fully interoperable with any conforming platform
-
-It doesn't have to be Mastodon; whatever implements ActivityPub is part of the social network! [Learn more](https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/)
-
-### Real-time, chronological timeline updates
-
-Updates of people you're following appear in real-time in the UI via WebSockets. There's a firehose view as well!
-
-### Media attachments like images and short videos
-
-Upload and view images and WebM/MP4 videos attached to the updates. Videos with no audio track are treated like GIFs; normal videos loop continuously!
-
-### Safety and moderation tools
-
-Mastodon includes private posts, locked accounts, phrase filtering, muting, blocking, and all sorts of other features, along with a reporting and moderation system. [Learn more](https://blog.joinmastodon.org/2018/07/cage-the-mastodon/)
-
-### OAuth2 and a straightforward REST API
-
-Mastodon acts as an OAuth2 provider, so 3rd party apps can use the REST and Streaming APIs. This results in a rich app ecosystem with a lot of choices!
+Koyal platform is developped on top of Mastodon (stable v4.3.0).
 
 ## Deployment
 
@@ -150,7 +101,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-[codespace]: https://codespaces.new/mastodon/mastodon?quickstart=1&devcontainer_path=.devcontainer%2Fcodespaces%2Fdevcontainer.json
+[codespace]: https://codespaces.new/koyaldham/koyal?quickstart=1&devcontainer_path=.devcontainer%2Fcodespaces%2Fdevcontainer.json
 [Dev Container extension]: https://containers.dev/supporting#dev-containers
 [Development Containers]: https://containers.dev/supporting
 [Docker]: https://docs.docker.com
